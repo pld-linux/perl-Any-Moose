@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Any/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fbae0fbd889ad3e06bf37e40e1e6fe2c
 URL:		http://search.cpan.org/dist/Any-Moose/
 BuildRequires:	perl-devel >= 1:5.8.0
