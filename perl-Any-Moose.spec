@@ -8,13 +8,13 @@
 Summary:	use Moose or Mouse modules
 #Summary(pl.UTF-8):
 Name:		perl-Any-Moose
-Version:	0.09
+Version:	0.10
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fbae0fbd889ad3e06bf37e40e1e6fe2c
+Source0:	http://search.cpan.org/CPAN/authors/id/S/SA/SARTAK/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	bacc0270c6dd29183fab6256dec53438
 URL:		http://search.cpan.org/dist/Any-Moose/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
