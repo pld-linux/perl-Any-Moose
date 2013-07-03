@@ -1,12 +1,11 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Any
 %define	pnam	Moose
+%include	/usr/lib/rpm/macros.perl
 Summary:	use Moose or Mouse modules
-#Summary(pl.UTF-8):
 Name:		perl-Any-Moose
 Version:	0.18
 Release:	1
@@ -21,14 +20,13 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Mouse >= 0.21
 %endif
+Requires:	perl-Mouse >= 0.21
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Actual documentation is forthcoming, once we solidify all the bits of
 the API. The examples above are very likely to continue working.
-
-# %description -l pl.UTF-8
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -42,7 +40,6 @@ the API. The examples above are very likely to continue working.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 %{__make} pure_install \
 	DESTDIR=$RPM_BUILD_ROOT
 
