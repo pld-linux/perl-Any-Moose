@@ -4,7 +4,6 @@
 
 %define	pdir	Any
 %define	pnam	Moose
-%include	/usr/lib/rpm/macros.perl
 Summary:	use Moose or Mouse modules
 Name:		perl-Any-Moose
 Version:	0.27
