@@ -8,7 +8,7 @@ Summary:	Any::Moose - use Moose or Mouse modules
 Summary(pl.UTF-8):	Any::Moose - używanie modułów Moose lub Mouse
 Name:		perl-Any-Moose
 Version:	0.27
-Release:	1
+Release:	2
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
